@@ -108,6 +108,7 @@ def plot_metrics(agent):
     plt.legend()
     
     plt.show()
+    plt.savefig('./videos/rl-video-episode-0-loss.png', dpi=300)
 
 def run_sim(agent):
     rollout = False
